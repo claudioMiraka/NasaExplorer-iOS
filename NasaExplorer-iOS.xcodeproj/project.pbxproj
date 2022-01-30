@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851070BA279A8823005924DA /* NasaExplorer_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070B9279A8823005924DA /* NasaExplorer_iOSApp.swift */; };
+		851070BC279A8823005924DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070BB279A8823005924DA /* ContentView.swift */; };
+		851070BE279A8823005924DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851070BD279A8823005924DA /* Assets.xcassets */; };
+		851070C1279A8823005924DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851070C0279A8823005924DA /* Preview Assets.xcassets */; };
+		851070CB279A8823005924DA /* NasaExplorer_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070CA279A8823005924DA /* NasaExplorer_iOSTests.swift */; };
+		851070D5279A8824005924DA /* NasaExplorer_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070D4279A8824005924DA /* NasaExplorer_iOSUITests.swift */; };
+		851070D7279A8824005924DA /* NasaExplorer_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070D6279A8824005924DA /* NasaExplorer_iOSUITestsLaunchTests.swift */; };
+		851070E5279A8942005924DA /* DailyPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070E4279A8942005924DA /* DailyPictureView.swift */; };
+		851070E9279A8999005924DA /* NearEarthObjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070E8279A8999005924DA /* NearEarthObjectsView.swift */; };
+		851070ED279A8A45005924DA /* MarsPicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070EC279A8A45005924DA /* MarsPicturesView.swift */; };
+		851070F0279A9288005924DA /* DailyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070EF279A9288005924DA /* DailyPicture.swift */; };
+		851070F3279F97D4005924DA /* DailyPictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070F2279F97D4005924DA /* DailyPictureViewModel.swift */; };
+		851070F6279F9F68005924DA /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070F5279F9F68005924DA /* Util.swift */; };
+		851070F927A3788F005924DA /* FakeDailyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851070F827A3788F005924DA /* FakeDailyPicture.swift */; };
+		85434AB427A71C2C00CF4C17 /* MarsPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434AB327A71C2C00CF4C17 /* MarsPictures.swift */; };
+		85434AB627A71D5D00CF4C17 /* FakeMarsPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434AB527A71D5D00CF4C17 /* FakeMarsPictures.swift */; };
+		85434ABA27A7201C00CF4C17 /* MarsPicturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434AB927A7201C00CF4C17 /* MarsPicturesViewModel.swift */; };
+		85434ABE27A72D4F00CF4C17 /* MarsPicturesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434ABD27A72D4F00CF4C17 /* MarsPicturesWidget.swift */; };
+		85434AC027A72D5500CF4C17 /* MarsPicturesTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434ABF27A72D5500CF4C17 /* MarsPicturesTile.swift */; };
+		85D25E8627A3A9A500937B7A /* DailyPictureWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E8527A3A9A500937B7A /* DailyPictureWidget.swift */; };
+		85D25E8E27A3ACA100937B7A /* NearEarthObjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E8D27A3ACA000937B7A /* NearEarthObjectsViewModel.swift */; };
+		85D25E9027A3ADAD00937B7A /* NearEarthObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E8F27A3ADAD00937B7A /* NearEarthObjects.swift */; };
+		85D25E9627A3C9B100937B7A /* FakeNearEarthObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E9527A3C9B100937B7A /* FakeNearEarthObjects.swift */; };
+		85D25E9A27A3CCDF00937B7A /* NearEarthObjectTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E9927A3CCDF00937B7A /* NearEarthObjectTile.swift */; };
+		85D25E9C27A4E26A00937B7A /* NearEarthObjectsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D25E9B27A4E26A00937B7A /* NearEarthObjectsWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851070C7279A8823005924DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851070AE279A8823005924DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851070B5279A8823005924DA;
+			remoteInfo = "NasaExplorer-iOS";
+		};
+		851070D1279A8824005924DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851070AE279A8823005924DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851070B5279A8823005924DA;
+			remoteInfo = "NasaExplorer-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851070B6279A8823005924DA /* NasaExplorer-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NasaExplorer-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851070B9279A8823005924DA /* NasaExplorer_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaExplorer_iOSApp.swift; sourceTree = "<group>"; };
+		851070BB279A8823005924DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		851070BD279A8823005924DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851070C0279A8823005924DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		851070C6279A8823005924DA /* NasaExplorer-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NasaExplorer-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851070CA279A8823005924DA /* NasaExplorer_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaExplorer_iOSTests.swift; sourceTree = "<group>"; };
+		851070D0279A8824005924DA /* NasaExplorer-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NasaExplorer-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851070D4279A8824005924DA /* NasaExplorer_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaExplorer_iOSUITests.swift; sourceTree = "<group>"; };
+		851070D6279A8824005924DA /* NasaExplorer_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaExplorer_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		851070E4279A8942005924DA /* DailyPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPictureView.swift; sourceTree = "<group>"; };
+		851070E8279A8999005924DA /* NearEarthObjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjectsView.swift; sourceTree = "<group>"; };
+		851070EC279A8A45005924DA /* MarsPicturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPicturesView.swift; sourceTree = "<group>"; };
+		851070EF279A9288005924DA /* DailyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPicture.swift; sourceTree = "<group>"; };
+		851070F2279F97D4005924DA /* DailyPictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPictureViewModel.swift; sourceTree = "<group>"; };
+		851070F5279F9F68005924DA /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		851070F827A3788F005924DA /* FakeDailyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDailyPicture.swift; sourceTree = "<group>"; };
+		85434AB327A71C2C00CF4C17 /* MarsPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPictures.swift; sourceTree = "<group>"; };
+		85434AB527A71D5D00CF4C17 /* FakeMarsPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMarsPictures.swift; sourceTree = "<group>"; };
+		85434AB927A7201C00CF4C17 /* MarsPicturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPicturesViewModel.swift; sourceTree = "<group>"; };
+		85434ABD27A72D4F00CF4C17 /* MarsPicturesWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsPicturesWidget.swift; sourceTree = "<group>"; };
+		85434ABF27A72D5500CF4C17 /* MarsPicturesTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsPicturesTile.swift; sourceTree = "<group>"; };
+		85D25E8527A3A9A500937B7A /* DailyPictureWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPictureWidget.swift; sourceTree = "<group>"; };
+		85D25E8D27A3ACA000937B7A /* NearEarthObjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjectsViewModel.swift; sourceTree = "<group>"; };
+		85D25E8F27A3ADAD00937B7A /* NearEarthObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjects.swift; sourceTree = "<group>"; };
+		85D25E9527A3C9B100937B7A /* FakeNearEarthObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNearEarthObjects.swift; sourceTree = "<group>"; };
+		85D25E9927A3CCDF00937B7A /* NearEarthObjectTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjectTile.swift; sourceTree = "<group>"; };
+		85D25E9B27A4E26A00937B7A /* NearEarthObjectsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjectsWidget.swift; sourceTree = "<group>"; };
+		85E34F9727A73249008E4018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851070B3279A8823005924DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070C3279A8823005924DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070CD279A8824005924DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851070AD279A8823005924DA = {
+			isa = PBXGroup;
+			children = (
+				851070B8279A8823005924DA /* NasaExplorer-iOS */,
+				851070C9279A8823005924DA /* NasaExplorer-iOSTests */,
+				851070D3279A8824005924DA /* NasaExplorer-iOSUITests */,
+				851070B7279A8823005924DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851070B7279A8823005924DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851070B6279A8823005924DA /* NasaExplorer-iOS.app */,
+				851070C6279A8823005924DA /* NasaExplorer-iOSTests.xctest */,
+				851070D0279A8824005924DA /* NasaExplorer-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851070B8279A8823005924DA /* NasaExplorer-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				851070B9279A8823005924DA /* NasaExplorer_iOSApp.swift */,
+				85E34F9727A73249008E4018 /* Info.plist */,
+				851070EE279A926F005924DA /* Model */,
+				851070F1279F9794005924DA /* ModelView */,
+				851070E3279A88C5005924DA /* Views */,
+				851070F4279F9F45005924DA /* Utils */,
+				851070BD279A8823005924DA /* Assets.xcassets */,
+				851070BF279A8823005924DA /* Preview Content */,
+			);
+			path = "NasaExplorer-iOS";
+			sourceTree = "<group>";
+		};
+		851070BF279A8823005924DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				851070C0279A8823005924DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		851070C9279A8823005924DA /* NasaExplorer-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				851070CA279A8823005924DA /* NasaExplorer_iOSTests.swift */,
+			);
+			path = "NasaExplorer-iOSTests";
+			sourceTree = "<group>";
+		};
+		851070D3279A8824005924DA /* NasaExplorer-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851070D4279A8824005924DA /* NasaExplorer_iOSUITests.swift */,
+				851070D6279A8824005924DA /* NasaExplorer_iOSUITestsLaunchTests.swift */,
+			);
+			path = "NasaExplorer-iOSUITests";
+			sourceTree = "<group>";
+		};
+		851070E3279A88C5005924DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				851070BB279A8823005924DA /* ContentView.swift */,
+				851070EB279A8A2C005924DA /* MarsPictures */,
+				851070E6279A895F005924DA /* DailyPicture */,
+				851070E7279A8971005924DA /* NearEarthObjects */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		851070E6279A895F005924DA /* DailyPicture */ = {
+			isa = PBXGroup;
+			children = (
+				851070E4279A8942005924DA /* DailyPictureView.swift */,
+				85D25E8527A3A9A500937B7A /* DailyPictureWidget.swift */,
+			);
+			path = DailyPicture;
+			sourceTree = "<group>";
+		};
+		851070E7279A8971005924DA /* NearEarthObjects */ = {
+			isa = PBXGroup;
+			children = (
+				851070E8279A8999005924DA /* NearEarthObjectsView.swift */,
+				85D25E9927A3CCDF00937B7A /* NearEarthObjectTile.swift */,
+				85D25E9B27A4E26A00937B7A /* NearEarthObjectsWidget.swift */,
+			);
+			path = NearEarthObjects;
+			sourceTree = "<group>";
+		};
+		851070EB279A8A2C005924DA /* MarsPictures */ = {
+			isa = PBXGroup;
+			children = (
+				851070EC279A8A45005924DA /* MarsPicturesView.swift */,
+				85434ABF27A72D5500CF4C17 /* MarsPicturesTile.swift */,
+				85434ABD27A72D4F00CF4C17 /* MarsPicturesWidget.swift */,
+			);
+			path = MarsPictures;
+			sourceTree = "<group>";
+		};
+		851070EE279A926F005924DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				851070EF279A9288005924DA /* DailyPicture.swift */,
+				85434AB327A71C2C00CF4C17 /* MarsPictures.swift */,
+				85D25E8F27A3ADAD00937B7A /* NearEarthObjects.swift */,
+				851070F727A37875005924DA /* FakeData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		851070F1279F9794005924DA /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				851070F2279F97D4005924DA /* DailyPictureViewModel.swift */,
+				85434AB927A7201C00CF4C17 /* MarsPicturesViewModel.swift */,
+				85D25E8D27A3ACA000937B7A /* NearEarthObjectsViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		851070F4279F9F45005924DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				851070F5279F9F68005924DA /* Util.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		851070F727A37875005924DA /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+				851070F827A3788F005924DA /* FakeDailyPicture.swift */,
+				85D25E9527A3C9B100937B7A /* FakeNearEarthObjects.swift */,
+				85434AB527A71D5D00CF4C17 /* FakeMarsPictures.swift */,
+			);
+			path = FakeData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851070B5279A8823005924DA /* NasaExplorer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851070DA279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOS" */;
+			buildPhases = (
+				851070B2279A8823005924DA /* Sources */,
+				851070B3279A8823005924DA /* Frameworks */,
+				851070B4279A8823005924DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NasaExplorer-iOS";
+			productName = "NasaExplorer-iOS";
+			productReference = 851070B6279A8823005924DA /* NasaExplorer-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851070C5279A8823005924DA /* NasaExplorer-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851070DD279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOSTests" */;
+			buildPhases = (
+				851070C2279A8823005924DA /* Sources */,
+				851070C3279A8823005924DA /* Frameworks */,
+				851070C4279A8823005924DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851070C8279A8823005924DA /* PBXTargetDependency */,
+			);
+			name = "NasaExplorer-iOSTests";
+			productName = "NasaExplorer-iOSTests";
+			productReference = 851070C6279A8823005924DA /* NasaExplorer-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851070CF279A8824005924DA /* NasaExplorer-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851070E0279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOSUITests" */;
+			buildPhases = (
+				851070CC279A8824005924DA /* Sources */,
+				851070CD279A8824005924DA /* Frameworks */,
+				851070CE279A8824005924DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851070D2279A8824005924DA /* PBXTargetDependency */,
+			);
+			name = "NasaExplorer-iOSUITests";
+			productName = "NasaExplorer-iOSUITests";
+			productReference = 851070D0279A8824005924DA /* NasaExplorer-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851070AE279A8823005924DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					851070B5279A8823005924DA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					851070C5279A8823005924DA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 851070B5279A8823005924DA;
+					};
+					851070CF279A8824005924DA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 851070B5279A8823005924DA;
+					};
+				};
+			};
+			buildConfigurationList = 851070B1279A8823005924DA /* Build configuration list for PBXProject "NasaExplorer-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851070AD279A8823005924DA;
+			productRefGroup = 851070B7279A8823005924DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851070B5279A8823005924DA /* NasaExplorer-iOS */,
+				851070C5279A8823005924DA /* NasaExplorer-iOSTests */,
+				851070CF279A8824005924DA /* NasaExplorer-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851070B4279A8823005924DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851070C1279A8823005924DA /* Preview Assets.xcassets in Resources */,
+				851070BE279A8823005924DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070C4279A8823005924DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070CE279A8824005924DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851070B2279A8823005924DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85434ABE27A72D4F00CF4C17 /* MarsPicturesWidget.swift in Sources */,
+				85D25E8627A3A9A500937B7A /* DailyPictureWidget.swift in Sources */,
+				85D25E9A27A3CCDF00937B7A /* NearEarthObjectTile.swift in Sources */,
+				851070F0279A9288005924DA /* DailyPicture.swift in Sources */,
+				851070E9279A8999005924DA /* NearEarthObjectsView.swift in Sources */,
+				85D25E8E27A3ACA100937B7A /* NearEarthObjectsViewModel.swift in Sources */,
+				85D25E9C27A4E26A00937B7A /* NearEarthObjectsWidget.swift in Sources */,
+				851070BC279A8823005924DA /* ContentView.swift in Sources */,
+				85434ABA27A7201C00CF4C17 /* MarsPicturesViewModel.swift in Sources */,
+				85434AC027A72D5500CF4C17 /* MarsPicturesTile.swift in Sources */,
+				851070F6279F9F68005924DA /* Util.swift in Sources */,
+				85434AB627A71D5D00CF4C17 /* FakeMarsPictures.swift in Sources */,
+				851070F3279F97D4005924DA /* DailyPictureViewModel.swift in Sources */,
+				851070E5279A8942005924DA /* DailyPictureView.swift in Sources */,
+				851070F927A3788F005924DA /* FakeDailyPicture.swift in Sources */,
+				85D25E9627A3C9B100937B7A /* FakeNearEarthObjects.swift in Sources */,
+				85D25E9027A3ADAD00937B7A /* NearEarthObjects.swift in Sources */,
+				851070BA279A8823005924DA /* NasaExplorer_iOSApp.swift in Sources */,
+				851070ED279A8A45005924DA /* MarsPicturesView.swift in Sources */,
+				85434AB427A71C2C00CF4C17 /* MarsPictures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070C2279A8823005924DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851070CB279A8823005924DA /* NasaExplorer_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851070CC279A8824005924DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851070D7279A8824005924DA /* NasaExplorer_iOSUITestsLaunchTests.swift in Sources */,
+				851070D5279A8824005924DA /* NasaExplorer_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851070C8279A8823005924DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851070B5279A8823005924DA /* NasaExplorer-iOS */;
+			targetProxy = 851070C7279A8823005924DA /* PBXContainerItemProxy */;
+		};
+		851070D2279A8824005924DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851070B5279A8823005924DA /* NasaExplorer-iOS */;
+			targetProxy = 851070D1279A8824005924DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		851070D8279A8824005924DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		851070D9279A8824005924DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851070DB279A8824005924DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NasaExplorer-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = QS2T88F866;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NasaExplorer-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		851070DC279A8824005924DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NasaExplorer-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = QS2T88F866;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NasaExplorer-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		851070DE279A8824005924DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS2T88F866;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaExplorer-iOS.app/NasaExplorer-iOS";
+			};
+			name = Debug;
+		};
+		851070DF279A8824005924DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS2T88F866;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaExplorer-iOS.app/NasaExplorer-iOS";
+			};
+			name = Release;
+		};
+		851070E1279A8824005924DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS2T88F866;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NasaExplorer-iOS";
+			};
+			name = Debug;
+		};
+		851070E2279A8824005924DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS2T88F866;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NasaExplorer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NasaExplorer-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851070B1279A8823005924DA /* Build configuration list for PBXProject "NasaExplorer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851070D8279A8824005924DA /* Debug */,
+				851070D9279A8824005924DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851070DA279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851070DB279A8824005924DA /* Debug */,
+				851070DC279A8824005924DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851070DD279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851070DE279A8824005924DA /* Debug */,
+				851070DF279A8824005924DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851070E0279A8824005924DA /* Build configuration list for PBXNativeTarget "NasaExplorer-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851070E1279A8824005924DA /* Debug */,
+				851070E2279A8824005924DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851070AE279A8823005924DA /* Project object */;
+}
