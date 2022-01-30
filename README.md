@@ -1,5 +1,5 @@
 # NasaApiExplorer
-Personal project to explore some of the api from https://api.nasa.gov/ , and SwiftUi. 
+Personal project to learn more about SwiftUi using some of the api from https://api.nasa.gov/. 
 
 ## Screenshots
 
